@@ -1,0 +1,14 @@
+# Warp configuration
+WARP.md
+
+# Compiled binaries
+barrelsize
+barrelsize.exe
+barrel
+barrel.exe
+*.o
+*.obj
+*.ali
+
+# Language-specific
+*.hi
