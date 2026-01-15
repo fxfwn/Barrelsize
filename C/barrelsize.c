@@ -23,7 +23,7 @@ int main()
     area    = 2 * pi * (radius + height);
     volume  = pi * pow(radius, 2) * height;
     liters  = volume / 1000.0;
-    floz    = liters * 0.264172;
+    floz    = liters * 33.814;
     gallons = floz / 128.0;
 
     //print results

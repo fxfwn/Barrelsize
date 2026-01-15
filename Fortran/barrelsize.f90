@@ -19,7 +19,7 @@ program barrel
     area = 2 * pi * radius * (radius + height)
     volume = pi * radius**2 * height
     liters = volume / 1000.0
-    floz = liters * 0.264172
+    floz = liters * 33.814
     gallons = floz / 128.0
 
     print *, 'Barrel radius is: ', radius, 'cm'

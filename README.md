@@ -35,6 +35,7 @@ Barrelsize began as a small experiment in Modern fortran in 2022. from there, it
 - Lua
 - Swift
 - x86-64 Assembly (transpiled from Fortran with `gfortran`)
+- AArch64 Assembly (transpiled from Swift via [Godbolt Compiler explorer](godbolt.org))
 
 This repository collects a curated subset of those implementations to demonstrate the sxercise's  universality without overwhelming newcomers.
 
@@ -49,14 +50,15 @@ barrelsize/
  ├─ ada/
  ├─ fortran/
  ├─ assembly/
- │   └─ x86-64/
+ │   ├─ x86-64/
+ │   └─ AArch64/
  ├─ Doc/
  │   ├─ philosophy.md
  │   ├─ teaching-guide.md
- │   ├─ extensions.md
- │   └─ comparisons.md
+ │   └─ extensions.md
  ├─ README.md
  ├─ .gitattributes
+ ├─ .gitignore
  ├─ DOC_LICENSE.txt
  └─ LICENSE
 ```
