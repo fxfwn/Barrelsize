@@ -53,9 +53,7 @@ barrelsize/
  │   ├─ x86-64/
  │   └─ AArch64/
  ├─ Doc/
- │   ├─ philosophy.md
- │   ├─ teaching-guide.md
- │   └─ extensions.md
+ │   └─ teaching-guide.md
  ├─ README.md
  ├─ .gitattributes
  ├─ .gitignore
