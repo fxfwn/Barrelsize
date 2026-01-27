@@ -1,7 +1,7 @@
 //Swift Version of the Barrelsize exercise
 import Foundation
 
-enum Const
+enum Const //technically redundant, used as an example of declaring a global constant
 {
     static let pi : Double = Double.pi
 }
